@@ -907,7 +907,7 @@
     color: #1f2937;
     font-weight: 600;
   }
-  @media (max-width: 768px) {
+  @media  (max-width: 768px) {
     .full-scale {
       margin-left: 10px;
     }
@@ -1662,4 +1662,34 @@ margin-bottom: 9px;
 .last-button svg {
   margin-left: 20px;
   margin-right: 10px;
+}
+
+@media screen and (max-width:768px){
+  .last-div{
+    display:flex;
+    flex-direction: column;
+  
+  }
+  .last-right{
+    height: 100%;
+        
+        width: 79%;
+        padding: 10px 26px 10px 26px;
+        margin-top: 20px;
+        margin-left: 22px;
+  }
+
+  .lock-parent p{
+    font-size: 16px !important;
+    font-family: sans-serif;
+  }
+  .security p{
+    font-size: 30px !important;
+        line-height: 36px !important;
+  }
+
+  .privacy{
+    margin-bottom: 40px;
+    font-size: 43px;
+  }
 }
